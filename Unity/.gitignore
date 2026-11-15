@@ -1,0 +1,80 @@
+# Unity .gitignore – MUSÍ byť v koreni Unity projektu (tento priečinok Unity/).
+# Vychádza zo šablóny https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+.utmp/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+*.log
+
+# Blender záložné súbory
+*.blend1
+*.blend1.meta
+
+# Memory captures a nahrávky (veľké, môžu obsahovať citlivé dáta)
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# JetBrains Rider
+/[Aa]ssets/Plugins/Editor/JetBrains*
+*.DotSettings.user
+
+# Visual Studio / VS Code / Gradle cache
+.vs/
+.vscode/
+.gradle/
+
+# Autogenerované solution a project súbory
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crash reporty
+sysinfo.txt
+mono_crash.*
+crashlytics-build.properties
+
+# Buildy – patria do GitHub Releases, nie do gitu
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# Test Runner
+InitTestScene*.unity*
+/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Addressables
+/ServerData
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/Addressables_Temp*
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Visual Scripting
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta

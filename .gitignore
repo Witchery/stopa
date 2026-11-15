@@ -1,0 +1,9 @@
+# Systémové súbory (Unity ignore je v Unity/.gitignore)
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+~$*
+
+# Lokálne exporty dokumentácie
+Docs/**/*.pdf.tmp
