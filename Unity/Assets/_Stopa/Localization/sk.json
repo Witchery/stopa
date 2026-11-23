@@ -1,0 +1,61 @@
+{
+  "app.chat.name": "Fotochat",
+  "app.sms.name": "Správy",
+  "contact.dominik.chat": "Dominik",
+  "contact.dominik.phone": "Dominik (mobil)",
+
+  "tools.other_channel.name": "Over iným kanálom",
+  "tools.other_channel.hint": "Napíš alebo zavolaj človeku na číslo, ktoré poznáš.",
+  "tools.blind_warning": "Rozhoduješ naslepo. Skús najprv overiť, kto ti naozaj píše.",
+  "tools.blind_warning.check": "Najprv overiť",
+  "tools.blind_warning.continue": "Aj tak pokračovať",
+
+  "m08.title": "Kód od kamaráta",
+  "m08.sms.code": "Fotochat: Tvoj prihlasovací kód je 482 913. Nikomu ho neposielaj, ani našim zamestnancom.",
+  "m08.n1.msg1": "Ahoj, sorry, omylom som ti poslal kód na tvoje číslo.",
+  "m08.n1.msg2": "Môžeš mi ho prepísať? Je to šesť čísel, prišlo ti to v SMS.",
+  "m08.n1.send": "Poslať kód",
+  "m08.n1.refuse": "Napísať: „Sorry, kódy z SMS nikomu neposielam.“",
+  "m08.msg.code_sent": "482 913",
+  "m08.msg.refused": "Sorry, kódy z SMS nikomu neposielam.",
+
+  "m08.n2.msg1": "Ty mi neveríš? Fakt to potrebujem rýchlo, o dve minúty mi to vyprší.",
+  "m08.n2.msg2": "Prosím, inak prídem o účet.",
+  "m08.n2.send": "Tak dobre, poslať kód",
+  "m08.n2.refuse": "Neposlať a ďalej neodpisovať",
+
+  "m08.v.ask": "Ahoj, píšeš mi teraz na Fotochate kvôli nejakému kódu?",
+  "m08.v.reply1": "Nie, ja som ti nič nepísal.",
+  "m08.v.reply2": "Do Fotochatu sa od rána neviem prihlásiť. Asi mi niekto ukradol účet.",
+  "m08.v.warn": "Kód nepošlem a varujem spolužiakov v triednej skupine",
+  "m08.v.block": "Kód nepošlem, falošný účet nahlásim a zablokujem",
+
+  "m08.hacked.notif1": "Fotochat: Nové prihlásenie do tvojho účtu z neznámeho zariadenia.",
+  "m08.hacked.notif2": "Fotochat: Heslo k tvojmu účtu bolo zmenené.",
+  "m08.hacked.msg": "Tvoj účet práve poslal 14 kamarátom správu: „Ahoj, sorry, omylom som ti poslal kód…“",
+  "m08.hacked.title": "Účet už nie je tvoj",
+  "m08.hacked.explain": "Kód z SMS nebol Dominikov. Niekto ovládol Dominikov účet a pokúšal sa prihlásiť do tvojho, preto ti Fotochat poslal prihlasovací kód. Kto má kód, má účet. Teraz ten istý trik skúša na tvojich kamarátoch.",
+
+  "m08.refuse.title": "Účet je v bezpečí, ale…",
+  "m08.refuse.next": "Na druhý deň v triede: „Dominikovi niekto ukradol Fotochat. Dvaja zo skupiny mu poslali kód a teraz nemajú účty.“",
+  "m08.refuse.explain": "Kód zostal u teba a to je najdôležitejšie. Krátka správa na Dominikovo číslo by ukázala, že jeho účet je napadnutý, a ostatní by sa to dozvedeli včas.",
+
+  "m08.verified.title": "Podvod odhalený",
+  "m08.verified.next_warn": "V triednej skupine: „Vďaka! Ja som mu už skoro poslala kód.“",
+  "m08.verified.next_block": "Fotochat: Ďakujeme za nahlásenie. Účet sme dočasne zablokovali.",
+  "m08.verified.explain": "Správa prišla od známeho kontaktu, ale písal ju niekto iný. Stačila krátka správa na číslo, ktoré poznáš, a podvod bol jasný.",
+
+  "card.m08.title": "Ako sa chrániť: kódy z SMS",
+  "card.m08.do.1": "Kód z SMS je kľúč k tvojmu účtu. Neposielaj ho nikomu: ani kamarátovi, ani „podpore“.",
+  "card.m08.do.2": "Keď ťa niekto známy o niečo zvláštne prosí, over si to inak: zavolaj mu alebo napíš na číslo, ktoré poznáš.",
+  "card.m08.do.3": "Naliehanie a časový limit („o dve minúty to vyprší“) sú typický znak podvodu.",
+  "card.m08.set.1": "Zapni si v účte dvojstupňové overenie a pozri sa, na ktorých zariadeniach je tvoj účet prihlásený.",
+  "card.m08.if.1": "Kód už odišiel? Hneď si zmeň heslo, odhlás všetky zariadenia a povedz to rodičom alebo učiteľovi.",
+  "card.m08.if.2": "Napadnutý účet kamaráta nahlás priamo v aplikácii a varuj spoločných kamarátov.",
+  "card.m08.help": "Potrebuješ poradiť? Linka detskej istoty 116 111 – nonstop, zadarmo a anonymne.",
+
+  "index.evidence.2_1.send": "V scenári „Kód od kamaráta“ odišiel prihlasovací kód útočníkovi.",
+  "index.evidence.2_1.refuse": "V scenári „Kód od kamaráta“ zostal kód u teba, ale overenie iným kanálom chýbalo.",
+  "index.evidence.2_1.refuse_verified": "V scenári „Kód od kamaráta“ zostal kód u teba a podvod odhalilo overenie iným kanálom.",
+  "tip.2fa_code": "Kód z SMS nikomu neposielaj a zvláštne prosby si over na čísle, ktoré poznáš."
+}

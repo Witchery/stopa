@@ -1,0 +1,61 @@
+{
+  "app.chat.name": "Fotochat",
+  "app.sms.name": "Messages",
+  "contact.dominik.chat": "Dominik",
+  "contact.dominik.phone": "Dominik (mobile)",
+
+  "tools.other_channel.name": "Check another way",
+  "tools.other_channel.hint": "Message or call the person on a number you already know.",
+  "tools.blind_warning": "You're deciding blind. Try checking who is really messaging you first.",
+  "tools.blind_warning.check": "Check first",
+  "tools.blind_warning.continue": "Continue anyway",
+
+  "m08.title": "A code from a friend",
+  "m08.sms.code": "Fotochat: Your login code is 482 913. Don't share it with anyone, not even our staff.",
+  "m08.n1.msg1": "Hey, sorry, I sent a code to your number by mistake.",
+  "m08.n1.msg2": "Can you type it out for me? It's six digits, it came in a text.",
+  "m08.n1.send": "Send the code",
+  "m08.n1.refuse": "Reply: \"Sorry, I don't share SMS codes with anyone.\"",
+  "m08.msg.code_sent": "482 913",
+  "m08.msg.refused": "Sorry, I don't share SMS codes with anyone.",
+
+  "m08.n2.msg1": "You don't trust me? I really need it fast, it expires in two minutes.",
+  "m08.n2.msg2": "Please, or I'll lose my account.",
+  "m08.n2.send": "Fine, send the code",
+  "m08.n2.refuse": "Don't send it and stop replying",
+
+  "m08.v.ask": "Hi, are you messaging me on Fotochat about some code right now?",
+  "m08.v.reply1": "No, I haven't sent you anything.",
+  "m08.v.reply2": "I haven't been able to log in to Fotochat since this morning. I think someone stole my account.",
+  "m08.v.warn": "Keep the code and warn classmates in the class group",
+  "m08.v.block": "Keep the code, report and block the fake account",
+
+  "m08.hacked.notif1": "Fotochat: New login to your account from an unknown device.",
+  "m08.hacked.notif2": "Fotochat: Your account password has been changed.",
+  "m08.hacked.msg": "Your account just sent 14 friends this message: \"Hey, sorry, I sent a code to your number by mistake…\"",
+  "m08.hacked.title": "Your account is gone",
+  "m08.hacked.explain": "The code wasn't Dominik's. Someone took over Dominik's account and tried to log in to yours, so Fotochat sent you a login code. Whoever has the code has the account. Now they're trying the same trick on your friends.",
+
+  "m08.refuse.title": "Your account is safe, but…",
+  "m08.refuse.next": "Next day at school: \"Someone stole Dominik's Fotochat. Two people from the group sent him the code and now they've lost their accounts.\"",
+  "m08.refuse.explain": "The code stayed with you, and that matters most. A quick message to Dominik's number would have shown his account was hacked, and the others would have found out in time.",
+
+  "m08.verified.title": "Scam spotted",
+  "m08.verified.next_warn": "In the class group: \"Thanks! I almost sent him the code.\"",
+  "m08.verified.next_block": "Fotochat: Thanks for the report. We have temporarily blocked the account.",
+  "m08.verified.explain": "The message came from a contact you know, but someone else was writing it. One short message to a number you know was enough to expose the scam.",
+
+  "card.m08.title": "How to stay safe: SMS codes",
+  "card.m08.do.1": "An SMS code is the key to your account. Never send it to anyone: not a friend, not \"support\".",
+  "card.m08.do.2": "If someone you know asks for something strange, check another way: call them or text a number you know.",
+  "card.m08.do.3": "Pressure and a time limit (\"it expires in two minutes\") are a classic sign of a scam.",
+  "card.m08.set.1": "Turn on two-step verification in your account and check which devices your account is logged in on.",
+  "card.m08.if.1": "Already sent the code? Change your password right away, log out of all devices and tell a parent or teacher.",
+  "card.m08.if.2": "Report a friend's hacked account in the app and warn your mutual friends.",
+  "card.m08.help": "Need advice? Slovak Child Safety Line 116 111 – 24/7, free and anonymous.",
+
+  "index.evidence.2_1.send": "In \"A code from a friend\", your login code went to the attacker.",
+  "index.evidence.2_1.refuse": "In \"A code from a friend\", you kept the code, but didn't check another way.",
+  "index.evidence.2_1.refuse_verified": "In \"A code from a friend\", you kept the code and checking another way exposed the scam.",
+  "tip.2fa_code": "Never send an SMS code to anyone, and check strange requests on a number you know."
+}
