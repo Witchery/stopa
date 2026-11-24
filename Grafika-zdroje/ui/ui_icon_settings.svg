@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <title>STOPA – ikona Nastavení</title>
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2=".82" y2="1">
+      <stop offset="0" stop-color="#F4F1F9"/>
+      <stop offset="1" stop-color="#E3DDEE"/>
+    </linearGradient>
+  </defs>
+  <rect id="background" width="256" height="256" rx="56" fill="url(#tile)"/>
+  <rect id="rim" x="3" y="3" width="250" height="250" rx="53"
+        fill="none" stroke="#19182B" stroke-opacity=".1" stroke-width="2"/>
+  <g id="gear" fill="#19182B" transform="translate(128 128)">
+    <path fill-rule="evenodd" d="M0 -49 A49 49 0 1 1 0 49 A49 49 0 1 1 0 -49 Z
+                                 M0 -23 A23 23 0 1 1 0 23 A23 23 0 1 1 0 -23 Z"/>
+    <rect x="-12" y="-65" width="24" height="26" rx="5"/>
+    <rect x="-12" y="-65" width="24" height="26" rx="5" transform="rotate(45)"/>
+    <rect x="-12" y="-65" width="24" height="26" rx="5" transform="rotate(90)"/>
+    <rect x="-12" y="-65" width="24" height="26" rx="5" transform="rotate(135)"/>
+    <rect x="-12" y="-65" width="24" height="26" rx="5" transform="rotate(180)"/>
+    <rect x="-12" y="-65" width="24" height="26" rx="5" transform="rotate(225)"/>
+    <rect x="-12" y="-65" width="24" height="26" rx="5" transform="rotate(270)"/>
+    <rect x="-12" y="-65" width="24" height="26" rx="5" transform="rotate(315)"/>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <title>STOPA – ikona Správ</title>
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2=".82" y2="1">
+      <stop offset="0" stop-color="#167568"/>
+      <stop offset="1" stop-color="#115950"/>
+    </linearGradient>
+  </defs>
+  <rect id="background" width="256" height="256" rx="56" fill="url(#tile)"/>
+  <rect id="rim" x="3" y="3" width="250" height="250" rx="53"
+        fill="none" stroke="#FFF" stroke-opacity=".18" stroke-width="2"/>
+  <g id="envelope" fill="none" stroke="#FFF" stroke-width="14"
+     stroke-linecap="round" stroke-linejoin="round">
+    <rect x="67" y="83" width="122" height="90" rx="18"/>
+    <path d="M77 99 L120 134 Q128 141 136 134 L179 99"/>
+  </g>
+</svg>

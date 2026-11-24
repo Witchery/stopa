@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <title>STOPA – rám telefónu</title>
+  <path id="bezel" fill="#19182B" fill-rule="evenodd" d="
+    M96 0 H984 A96 96 0 0 1 1080 96 V1824 A96 96 0 0 1 984 1920
+    H96 A96 96 0 0 1 0 1824 V96 A96 96 0 0 1 96 0 Z
+    M108 60 H972 A64 64 0 0 1 1036 124 V1796 A64 64 0 0 1 972 1860
+    H108 A64 64 0 0 1 44 1796 V124 A64 64 0 0 1 108 60 Z"/>
+  <rect id="outer-rim" x="5" y="5" width="1070" height="1910" rx="91"
+        fill="none" stroke="#38354E" stroke-width="3"/>
+  <rect id="inner-rim" x="41" y="57" width="998" height="1806" rx="67"
+        fill="none" stroke="#11101D" stroke-width="4"/>
+  <rect id="earpiece" x="503" y="28" width="74" height="6" rx="3" fill="#56536C"/>
+  <circle id="sensor" cx="600" cy="31" r="4" fill="#56536C"/>
+</svg>

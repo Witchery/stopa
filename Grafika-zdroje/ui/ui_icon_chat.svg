@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <title>STOPA – ikona Bodkruhu</title>
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2=".82" y2="1">
+      <stop offset="0" stop-color="#6137D6"/>
+      <stop offset="1" stop-color="#4923B2"/>
+    </linearGradient>
+  </defs>
+  <rect id="background" width="256" height="256" rx="56" fill="url(#tile)"/>
+  <rect id="rim" x="3" y="3" width="250" height="250" rx="53"
+        fill="none" stroke="#FFF" stroke-opacity=".18" stroke-width="2"/>
+  <g id="mark" fill="#FFF">
+    <path d="M132 72 A57 57 0 1 0 185 129" fill="none" stroke="#FFF"
+          stroke-width="17" stroke-linecap="round"/>
+    <circle cx="174" cy="87" r="11"/>
+    <circle cx="128" cy="129" r="8" opacity=".72"/>
+  </g>
+</svg>
